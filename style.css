@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 40px 0 20px 0;
+}
+
+.container form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container form input {
+  width: 25%;
+  height: 30px;
+  padding: 0 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.container form button {
+  height: 30px;
+  width: 30px;
+  background-color: green;
+  color: white;
+  border: black solid 1px;
+  font-size: 20px;
+}
+
+.container form button:hover {
+  background-color: darkgreen;
+}
+
+.listContainer {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#list li {
+  margin-bottom: 10px;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+#list li p {
+  max-width: 700px;
+  word-wrap: break-word;
+}
+#list li button {
+  width: 30px;
+  height: 30px;
+  border: black solid 1px;
+  background-color: red;
+  color: white;
+}
+#list li button.hover {
+  background-color: darkred;
+}
+#list li input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
